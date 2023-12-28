@@ -377,7 +377,6 @@ nav {
 }
 
 .footer {
-    margin-top: -70px;
     background-color: #252934;
     padding: 120px 0px 40px;
     text-align: center;
@@ -391,7 +390,7 @@ nav {
     margin: 10px auto;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1000px) {
     .about{ 
         padding: 50px;
         box-sizing: border-box;

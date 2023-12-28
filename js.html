@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Addition Calculator</title>
+</head>
+<body>
+
+    <div class="p">
+        <input type="number" name="" id="nominal1">
+        +
+        <input type="number" name="" id="nominal2">  
+        =  
+        <input type="text" name="" id="hasil" disabled>
+    </div>
+
+    <div style="margin-top: 10px;">
+        <button onclick="hitung()">Hitung</button>
+    </div>
+
+    <script>
+        function hitung() {
+            var nominal_1 = parseFloat(document.getElementById('nominal1').value);
+            var nominal_2 = parseFloat(document.getElementById('nominal2').value);
+
+            var hasil = nominal_1 + nominal_2;
+
+            document.getElementById('hasil').value = hasil;
+        }
+    </script>
+</body>
+</html>
